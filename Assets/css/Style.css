@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top-bar {
+  background-color: white;
+  text-align: left;
+  padding: 4px 50px;
+}
+.top-bar img {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  padding: 20px 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar li {
+  margin: 0 70px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.navbar a:hover {
+  color: #622da3;
+}
+
+img {
+  width: 350px;
+  height: 300px;
+}
+
+.Dogs-logo img {
+  width: 100%;
+  height: 5%;
+}
+#Purple-text {
+  color: purple;
+  text-align: center;
+}
+
+.All-dogs {
+  display: inline;
+}
+
+.dogs-aw{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 28px;
+  color: #622da3;
+}
+
+
+.dogs-aw {
+  text-align: center;
+  margin: 0px;
+}
+
+.dogs-aw h2 {
+  font-size: 24px;
+  color: #4a148c;
+  margin: 0;
+}
+
+.All-dogs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.All-dogs div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 220px; 
+  text-align: center;
+  
+}
+
+.All-dogs img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.All-dogs b {
+  font-size: 24px;
+  color: #333;
+}
+
+.All-dogs p {
+  margin: 5px;
+  font-size: 14px;
+  color: #555;
+  }
+
+  h1{
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+    color: white;
+    font-size: 60px;
+  }
