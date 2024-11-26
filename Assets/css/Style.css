@@ -117,3 +117,51 @@ img {
     color: white;
     font-size: 60px;
   }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; 
+    padding: 10px;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+
+  .Dogs-logo img {
+    height: auto; 
+  }
+
+  h1 {
+    font-size: 40px; 
+    bottom: 450px; 
+  }
+
+  .All-dogs {
+    flex-direction: column; 
+    gap: 15px;
+  }
+
+  .All-dogs div {
+    width: 90%; 
+    margin: 0 auto;
+  }
+
+  img {
+    width: 100%; 
+    height: auto; 
+  }
+  .navbar a {
+    font-size: 16px; 
+  }
+
+  h1 {
+    font-size: 30px; 
+  }
+
+  .dogs-aw h2 {
+    font-size: 18px; 
+  }
+}
+
+
