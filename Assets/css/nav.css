@@ -1,0 +1,32 @@
+.top-bar {
+    background-color: white;
+    padding: 4px 50px;
+  }
+  .top-bar img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    padding: 15px 20px 15px 20px;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin: 0 40px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+  }
+  
+  .navbar a:hover {
+    color: #622da3;
+  }
+  

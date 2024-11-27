@@ -1,39 +1,7 @@
+@import url(nav.css);
 * {
   margin: 0;
   padding: 0;
-}
-.top-bar {
-  background-color: white;
-  text-align: left;
-  padding: 4px 50px;
-}
-.top-bar img {
-  width: 100px;
-  height: 100px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  background-color: purple;
-  padding: 20px 0;
-  margin: 0;
-  list-style: none;
-}
-
-.navbar li {
-  margin: 0 70px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 19px;
-}
-
-.navbar a:hover {
-  color: #622da3;
 }
 
 img {
@@ -54,19 +22,16 @@ img {
   display: inline;
 }
 
-.dogs-aw{
+.dogs-aw {
   width: 100%;
   height: 100px;
   text-align: center;
   font-size: 28px;
   color: #622da3;
-}
-
-
-.dogs-aw {
   text-align: center;
   margin: 0px;
 }
+
 
 .dogs-aw h2 {
   font-size: 24px;
@@ -78,24 +43,22 @@ img {
   display: flex;
   justify-content: center;
   gap: 20px;
-  
 }
 
 .All-dogs div {
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  width: 220px; 
+  padding: 6px;
+  width: 200px;
   text-align: center;
-  
 }
 
 .All-dogs img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 10px;
 }
 
@@ -108,19 +71,35 @@ img {
   margin: 5px;
   font-size: 14px;
   color: #555;
-  }
+}
 
-  h1{
-    text-align: center;
-    position: relative;
-    bottom: 500px;
-    color: white;
-    font-size: 60px;
+h1 {
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  color: white;
+  font-size: 30px;
+}
+@media (min-width: 440px) {
+  .All-dogs{
+    padding: 100px;
+
   }
+  .navbar{
+    padding: 20px 15px;
+    
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar {
+   
+  }
+}
 
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column; 
+    flex-direction: column;
     padding: 10px;
   }
 
@@ -129,39 +108,52 @@ img {
   }
 
   .Dogs-logo img {
-    height: auto; 
+    height: auto;
   }
 
   h1 {
-    font-size: 40px; 
-    bottom: 450px; 
+    font-size: 40px;
+    bottom: 200px;
   }
 
   .All-dogs {
-    flex-direction: column; 
+    flex-direction: column;
     gap: 15px;
   }
 
   .All-dogs div {
-    width: 90%; 
+    width: 90%;
     margin: 0 auto;
   }
 
   img {
-    width: 100%; 
-    height: auto; 
+    height: auto;
   }
   .navbar a {
-    font-size: 16px; 
+    font-size: 16px;
   }
 
-  h1 {
-    font-size: 30px; 
-  }
-
-  .dogs-aw h2 {
-    font-size: 18px; 
+  #dogs-available h2 {
+    font-size: 33px;
   }
 }
 
+@media (max-width: 1200px) {
+  #dogs-available h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+}
 
+@media (min-width: 1200px) {
+  #dogs-available h2 {
+    font-size: 60px;
+  }
+
+  .navbar li {
+    margin: 10px 10;
+    font-size: 40px;
+  }
+}
+ /* 😭😭😭😭😭😭😭😭😭😭😭😭😭😭🥺 */
+ 
