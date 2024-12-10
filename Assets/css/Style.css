@@ -32,7 +32,6 @@ img {
   margin: 0px;
 }
 
-
 .dogs-aw h2 {
   font-size: 24px;
   color: #4a148c;
@@ -80,44 +79,36 @@ h1 {
   color: white;
   font-size: 30px;
 }
-@media (min-width: 440px) {
-  .All-dogs{
-    padding: 100px;
-
-  }
-  .navbar{
-    padding: 20px 15px;
-    
-  }
+/* Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (max-width: 575px) {
-  .navbar {
-   
-  }
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.Dogs-logo img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .navbar li {
-    margin: 10px 0;
-  }
-
-  .Dogs-logo img {
-    height: auto;
-  }
-
-  h1 {
-    font-size: 40px;
-    bottom: 200px;
-  }
-
   .All-dogs {
     flex-direction: column;
+    align-items: center;
     gap: 15px;
   }
 
@@ -126,34 +117,36 @@ h1 {
     margin: 0 auto;
   }
 
-  img {
-    height: auto;
-  }
-  .navbar a {
-    font-size: 16px;
+  h1 {
+    font-size: 28px;
   }
 
   #dogs-available h2 {
-    font-size: 33px;
+    font-size: 24px;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 440px) {
+  h1 {
+    font-size: 22px;
+  }
+
   #dogs-available h2 {
-    font-size: 50px;
-    padding-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .All-dogs div {
+    padding: 10px;
+    width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
-  #dogs-available h2 {
-    font-size: 60px;
-  }
-
-  .navbar li {
-    margin: 10px 10;
+  h1 {
     font-size: 40px;
   }
+
+  #dogs-available h2 {
+    font-size: 36px;
+  }
 }
- /* 😭😭😭😭😭😭😭😭😭😭😭😭😭😭🥺 */
- 
